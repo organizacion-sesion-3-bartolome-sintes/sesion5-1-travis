@@ -130,7 +130,7 @@ class CalculatorTests extends TestCase
         $this->assertTrue($result);
     }
     
-    public function testEsPar16()
+    public function testEsPar17()
     {
         $result = $this->calculator->esPar(066);
         $this->assertTrue($result);
