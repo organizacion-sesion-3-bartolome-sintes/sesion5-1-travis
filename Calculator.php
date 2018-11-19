@@ -16,5 +16,16 @@ class Calculator
     {
         return $a / $b;
     }
+
+    public function esPar($a)
+    {
+        if (!is_numeric($a)) {
+            return false;
+        } elseif (floor($a / 2) * 2 == $a) {
+            return true;
+        } else {
+            return false;
+        }
+    }
  
 }
