@@ -138,7 +138,7 @@ class CalculatorTests extends TestCase
     
     public function testEsPar18()
     {
-        $result = $this->calculator->esPar();
+        $result = $this->calculator->esPar('');
         $this->assertFalse($result);
     }
  
