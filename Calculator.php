@@ -19,7 +19,10 @@ class Calculator
 
     public function esPar($a)
     {
-        if (!is_numeric($a)) {
+
+        if ($a == "") {
+            return false;
+        } elseif (!is_numeric($a)) {
             return false;
         } elseif (floor($a / 2) * 2 == $a) {
             return true;
