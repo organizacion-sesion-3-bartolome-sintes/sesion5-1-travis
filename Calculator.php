@@ -20,7 +20,7 @@ class Calculator
     public function esPar($a)
     {
 
-        if ($a == "") {
+        if ($a === "") {
             return false;
         } elseif (!is_numeric($a)) {
             return false;
